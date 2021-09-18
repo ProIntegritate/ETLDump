@@ -19,7 +19,7 @@ Module Module1
             Console.WriteLine("-v  Verbose")
             Console.WriteLine("-e  Dump only eventpayload (if any)")
             Console.ForegroundColor = ConsoleColor.White
-            Console.WriteLine("Example: ETLDump.exe -fc:\folder\file.etl -wc:\folder.xml -v")
+            Console.WriteLine("Example: ETLDump.exe -fc:\folder\file.etl -wc:\folder\file.xml -v -e")
             End
         End If
 
